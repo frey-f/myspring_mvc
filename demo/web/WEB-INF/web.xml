@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <display-name>my_web</display-name><!-- 定义了web应用的名称-->
+    <servlet>
+        <servlet-name>xmvc</servlet-name><!--servlet 的名称-->
+        <servlet-class>com.frey.xspring.servlet.xDispatchServlet</servlet-class> <!--servlet的路径-->
+        <init-param>  <!--初始化的参数-->
+            <param-name>contextConfigLocation</param-name>
+            <param-value>application.properties</param-value><!--Spring配置文件-->
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xmvc</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+</web-app>
