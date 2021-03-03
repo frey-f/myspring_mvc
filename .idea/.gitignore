@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../:\LeanProject\myspring_mvc\.idea/dataSources/
+/../../../../../:\Tool\idea\myspring_mvc\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

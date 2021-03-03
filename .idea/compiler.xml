@@ -11,13 +11,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="15" />
-      <module name="springmvcdemo" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="" />
-      <module name="springmvcdemo" options="-parameters" />
-    </option>
   </component>
 </project>
